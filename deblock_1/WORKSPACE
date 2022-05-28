@@ -1,0 +1,9 @@
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+http_archive(
+     name = "lodepng",
+     urls = ["https://github.com/lvandeve/lodepng/archive/93e348f.zip"],
+     sha256 = "3286af2ba5ad7adc40af141f1c3ff8e09121f9cb080b02d9d4bc3a5b77195cd9",
+     build_file = "//:lodepng.BUILD",
+     strip_prefix = "lodepng-93e348fc8ee50729b2bfc3d602df2cae6051a40e",
+ )

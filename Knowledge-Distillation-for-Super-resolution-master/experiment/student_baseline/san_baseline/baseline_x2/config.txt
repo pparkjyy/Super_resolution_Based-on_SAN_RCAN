@@ -1,0 +1,672 @@
+2022-04-18-02:53:33
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 4
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.0
+model: SAN
+feature_distilation_type: 1*SA
+feature_loss_used: 0
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-02:58:47
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 2
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.0
+model: SAN
+feature_distilation_type: 1*SA
+feature_loss_used: 0
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-03:08:34
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 6
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.0
+model: SAN
+feature_distilation_type: 1*SA
+feature_loss_used: 0
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-03:14:05
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 6
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: SAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-03:17:32
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 16
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: SAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-03:17:42
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 12
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: SAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-03:56:57
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 1
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: SAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-04:02:22
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 1
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: SAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-04:07:46
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 1
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: SAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-04:36:59
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 1
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: SAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-04:54:59
+
+cpu: True
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 1
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: SAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-04:55:17
+
+cpu: True
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: student_baseline/san_baseline/baseline_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 4
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: SAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [SAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 10
+n_resgroups: 20
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+

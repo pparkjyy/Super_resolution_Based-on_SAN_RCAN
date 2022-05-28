@@ -1,0 +1,168 @@
+2022-04-18-04:41:15
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: overall_distilation/rcan/SA_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 16
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: RCAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [RCAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 20
+n_resgroups: 10
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-04:41:33
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: overall_distilation/rcan/SA_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 12
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: RCAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [RCAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 20
+n_resgroups: 10
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+
+2022-04-18-04:56:02
+
+cpu: False
+n_GPUs: 1
+gpu_id: 0
+n_threads: 6
+dir_data: Data_Root
+data_train: ['DIV2K']
+data_test: ['Set5', 'Set14', 'B100', 'Urban100']
+data_range: 1-800/801-810
+scale: [2]
+ext: sep
+no_augment: False
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: True
+ckp_dir: overall_distilation/rcan/SA_x2/
+save_models: False
+save_gt: False
+save_results: True
+epochs: 200
+batch_size: 12
+resume: 0
+test_only: False
+precision: single
+print_every: 100
+test_every: 1000
+reset: False
+template: .
+lr: 0.0001
+decay: 150-300-450-600
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gamma: 0.5
+alpha: 0.5
+model: RCAN
+feature_distilation_type: 10*SA
+feature_loss_used: 1
+features: [1,2,3]
+teacher: [RCAN]
+student_n_resblocks: 6
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resblocks: 20
+n_resgroups: 10
+reduction: 16
+n_feats: 64
+res_scale: 1
+ckp_path: 
+TS: S
+

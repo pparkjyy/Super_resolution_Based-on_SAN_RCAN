@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 광운대학교 Super Resolution</title>
+    <style>
+        body {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+h1{ text-align: center; }
+
+.file { position : absolute;
+    font-family: sans-serif;
+    text-align: center;
+    margin : 4px 2px;
+    top : 70%;
+    left : 40%;
+    padding : 15px 20px;
+    background :slategrey;
+    color : white;
+    font-size : 1.16em;
+    cursor : pointer;
+}
+
+
+.Choose { position: absolute;
+    top : 55%;
+    left : 45%;
+    cursor : pointer;
+}
+
+.Scale { width : 20px;
+    position : absolute;
+    font-family : sans-serif;
+    margin : 4px 2px;
+    top : 64%;
+    left : 47.5%;
+    font-size : 2em;
+}
+
+.deblock{
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    font-family: sans-serif;
+
+}
+ 
+.SR { 
+    position : absolute;
+    top : 71%;
+    left : 35%;
+}
+   </style>
+    <script src = "../static/js/jquery-3.6.0.min.js"> </script>
+    <script type = "text/javascript">
+        var scale = $('#Scale').val();
+    </script>
+</head>
+
+<body>
+    <h1> Super Resolution based on SAN/RCAN </h1>
+    <form method="POST" action="http://223.194.46.69:5000/convert" enctype = "multipart/form-data" accept=".jpg, .jpeg">
+        <div class = "Scale">
+            <select id = "Scale" name = "Scale" onchange = "change(this.value)">
+                <option value = "none">  :: Scale ::  </option>
+                <option value = "2"> x2 </option>
+                <option value = "3"> x3 </option>
+                <option value = "4"> x4 </option>
+            </select>
+        </div>
+
+        <div class = "SR" >
+            <select id = "SR" name = "SR">
+                <option value = "none"> :: SR :: </option>
+                <option value = "1" > SAN </option>
+                <option value = "2" > RCAN</option>
+            </select>
+        </div>
+
+        <div class = "file">
+            <form class = "file" name = "file">
+                <input type = "file" name = "file" accept=".jpg, .jpeg"/>
+                <input type = "submit"/>
+            </form>
+        </div>
+        <form method = "POST" action="http://223.194.46.69:5000/deblock" enctype="multipart/form-data" accept=".jpg, .jpeg">
+            <div class = "deblock">
+                <form name = "deblock">
+                    <input type = "submit">
+                </form>
+            </div>
+        </form>
+
+        
+    </form>
+    
+        
+</body>
+</html>

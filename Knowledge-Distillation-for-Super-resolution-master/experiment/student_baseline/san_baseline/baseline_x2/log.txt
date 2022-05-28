@@ -1,0 +1,339 @@
+Model settings
+Teachers: [SAN]
+Student: SAN
+
+Data Settings
+RGB range: 255
+Scale: 2
+Input Image Size: (48, 48, 3)
+Output Image Size: (96, 96, 3)
+
+Training Settings
+Epochs: 200
+Learning rate: 0.000100
+Learning rate decay: 150-300-450-600
+
+Distillation Settings
+No distilation
+
+
+
+[Epoch 1]	Learning rate: 1.00e-04
+[0/4000]	[DS: 65.2752][TS: 0.0000][Total: 65.2752]	0.8+0.1s
+[400/4000]	[DS: 14.5485][TS: 0.0000][Total: 14.5485]	14.4+0.0s
+[800/4000]	[DS: 11.2648][TS: 0.0000][Total: 11.2648]	14.7+0.1s
+[1200/4000]	[DS: 9.8297][TS: 0.0000][Total: 9.8297]	14.9+0.3s
+[1600/4000]	[DS: 8.8313][TS: 0.0000][Total: 8.8313]	14.9+0.3s
+[2000/4000]	[DS: 8.1888][TS: 0.0000][Total: 8.1888]	15.5+0.1s
+[2400/4000]	[DS: 7.7680][TS: 0.0000][Total: 7.7680]	15.4+0.0s
+[2800/4000]	[DS: 7.3934][TS: 0.0000][Total: 7.3934]	15.6+0.4s
+[3200/4000]	[DS: 7.1219][TS: 0.0000][Total: 7.1219]	15.6+0.2s
+[3600/4000]	[DS: 6.8880][TS: 0.0000][Total: 6.8880]	15.7+0.3s
+
+Evaluation:
+Model settings
+Teachers: [SAN]
+Student: SAN
+
+Data Settings
+RGB range: 255
+Scale: 2
+Input Image Size: (48, 48, 3)
+Output Image Size: (96, 96, 3)
+
+Training Settings
+Epochs: 200
+Learning rate: 0.000100
+Learning rate decay: 150-300-450-600
+
+Distillation Settings
+No distilation
+
+
+
+[Epoch 1]	Learning rate: 1.00e-04
+[0/1600]	[DS: 89.3404][TS: 0.0000][Total: 89.3404]	0.7+0.1s
+[200/1600]	[DS: 18.6922][TS: 0.0000][Total: 18.6922]	11.3+0.0s
+[400/1600]	[DS: 13.8466][TS: 0.0000][Total: 13.8466]	12.9+0.1s
+[600/1600]	[DS: 12.1301][TS: 0.0000][Total: 12.1301]	14.4+0.1s
+[800/1600]	[DS: 10.9961][TS: 0.0000][Total: 10.9961]	14.2+0.2s
+[1000/1600]	[DS: 10.2175][TS: 0.0000][Total: 10.2175]	13.9+0.2s
+[1200/1600]	[DS: 9.5271][TS: 0.0000][Total: 9.5271]	13.8+0.4s
+[1400/1600]	[DS: 8.9915][TS: 0.0000][Total: 8.9915]	13.7+0.5s
+
+Evaluation:
+Model settings
+Teachers: [SAN]
+Student: SAN
+
+Data Settings
+RGB range: 255
+Scale: 2
+Input Image Size: (48, 48, 3)
+Output Image Size: (96, 96, 3)
+
+Training Settings
+Epochs: 200
+Learning rate: 0.000100
+Learning rate decay: 150-300-450-600
+
+Distillation Settings
+No distilation
+
+
+
+[Epoch 1]	Learning rate: 1.00e-04
+[0/5600]	[DS: 52.5644][TS: 0.0000][Total: 52.5644]	0.9+0.2s
+[600/5600]	[DS: 12.7574][TS: 0.0000][Total: 12.7574]	18.9+0.0s
+[1200/5600]	[DS: 9.8690][TS: 0.0000][Total: 9.8690]	19.4+0.0s
+[1800/5600]	[DS: 8.6052][TS: 0.0000][Total: 8.6052]	19.3+0.1s
+[2400/5600]	[DS: 7.8276][TS: 0.0000][Total: 7.8276]	19.4+0.0s
+[3000/5600]	[DS: 7.3695][TS: 0.0000][Total: 7.3695]	19.4+0.0s
+[3600/5600]	[DS: 6.9855][TS: 0.0000][Total: 6.9855]	19.5+0.1s
+[4200/5600]	[DS: 6.7528][TS: 0.0000][Total: 6.7528]	19.5+0.1s
+[4800/5600]	[DS: 6.5219][TS: 0.0000][Total: 6.5219]	19.4+0.1s
+[5400/5600]	[DS: 6.3612][TS: 0.0000][Total: 6.3612]	19.9+0.0s
+
+Evaluation:
+Model settings
+Teachers: [SAN]
+Student: SAN
+
+Data Settings
+RGB range: 255
+Scale: 2
+Input Image Size: (48, 48, 3)
+Output Image Size: (96, 96, 3)
+
+Training Settings
+Epochs: 200
+Learning rate: 0.000100
+Learning rate decay: 150-300-450-600
+
+Distillation Settings
+Distillation type: 
+	teacher supervision
+	feature distillation
+		type: SA
+		position: [1,2,3]
+
+
+
+[Epoch 1]	Learning rate: 1.00e-04
+[0/5600]	[DS: 22.5086][TS: 22.4068][SA: 0.9986][Total: 45.9140]	0.9+0.2s
+[600/5600]	[DS: 6.2017][TS: 5.8287][SA: 1.0608][Total: 13.0913]	20.1+0.0s
+[1200/5600]	[DS: 4.8417][TS: 4.3784][SA: 0.9890][Total: 10.2092]	20.5+0.0s
+[1800/5600]	[DS: 4.2512][TS: 3.7218][SA: 0.9206][Total: 8.8937]	20.6+0.0s
+[2400/5600]	[DS: 3.8903][TS: 3.3213][SA: 0.8559][Total: 8.0676]	20.6+0.0s
+[3000/5600]	[DS: 3.6345][TS: 3.0338][SA: 0.8035][Total: 7.4719]	20.7+0.0s
+[3600/5600]	[DS: 3.4540][TS: 2.8212][SA: 0.7586][Total: 7.0338]	20.7+0.0s
+[4200/5600]	[DS: 3.3403][TS: 2.6802][SA: 0.7244][Total: 6.7448]	20.6+0.1s
+[4800/5600]	[DS: 3.2190][TS: 2.5488][SA: 0.6961][Total: 6.4639]	20.7+0.0s
+[5400/5600]	[DS: 3.1359][TS: 2.4475][SA: 0.6725][Total: 6.2559]	20.7+0.0s
+
+Evaluation:
+Model settings
+Teachers: [SAN]
+Student: SAN
+
+Data Settings
+RGB range: 255
+Scale: 2
+Input Image Size: (48, 48, 3)
+Output Image Size: (96, 96, 3)
+
+Training Settings
+Epochs: 200
+Learning rate: 0.000100
+Learning rate decay: 150-300-450-600
+
+Distillation Settings
+Distillation type: 
+	teacher supervision
+	feature distillation
+		type: SA
+		position: [1,2,3]
+
+
+
+[Epoch 1]	Learning rate: 1.00e-04
+[0/16000]	[DS: 33.2782][TS: 33.1487][SA: 1.2074][Total: 67.6343]	1.2+0.3s
+Model settings
+Teachers: [SAN]
+Student: SAN
+
+Data Settings
+RGB range: 255
+Scale: 2
+Input Image Size: (48, 48, 3)
+Output Image Size: (96, 96, 3)
+
+Training Settings
+Epochs: 200
+Learning rate: 0.000100
+Learning rate decay: 150-300-450-600
+
+Distillation Settings
+Distillation type: 
+	teacher supervision
+	feature distillation
+		type: SA
+		position: [1,2,3]
+
+
+
+[Epoch 1]	Learning rate: 1.00e-04
+[0/12000]	[DS: 31.4518][TS: 31.3784][SA: 1.2428][Total: 64.0730]	1.1+0.2s
+[1200/12000]	[DS: 5.9966][TS: 5.5966][SA: 1.0795][Total: 12.6727]	37.5+0.0s
+[2400/12000]	[DS: 4.7012][TS: 4.1777][SA: 0.9894][Total: 9.8683]	37.7+0.0s
+[3600/12000]	[DS: 4.0914][TS: 3.5210][SA: 0.9160][Total: 8.5284]	37.7+0.0s
+[4800/12000]	[DS: 3.7336][TS: 3.1264][SA: 0.8445][Total: 7.7046]	37.7+0.0s
+[6000/12000]	[DS: 3.4733][TS: 2.8456][SA: 0.7882][Total: 7.1071]	37.9+0.0s
+[7200/12000]	[DS: 3.3189][TS: 2.6648][SA: 0.7444][Total: 6.7281]	37.9+0.0s
+[8400/12000]	[DS: 3.1905][TS: 2.5132][SA: 0.7097][Total: 6.4135]	37.9+0.0s
+[9600/12000]	[DS: 3.0877][TS: 2.3919][SA: 0.6815][Total: 6.1612]	37.8+0.0s
+[10800/12000]	[DS: 2.9924][TS: 2.2874][SA: 0.6580][Total: 5.9378]	37.8+0.0s
+
+Evaluation:
+Model settings
+Teachers: [SAN]
+Student: SAN
+
+Data Settings
+RGB range: 255
+Scale: 2
+Input Image Size: (48, 48, 3)
+Output Image Size: (96, 96, 3)
+
+Training Settings
+Epochs: 200
+Learning rate: 0.000100
+Learning rate decay: 150-300-450-600
+
+Distillation Settings
+Distillation type: 
+	teacher supervision
+	feature distillation
+		type: SA
+		position: [1,2,3]
+
+
+
+[Epoch 1]	Learning rate: 1.00e-04
+[0/800]	[DS: 27.5705][TS: 27.5578][SA: 0.8919][Total: 56.0202]	0.7+0.1s
+[100/800]	[DS: 9.9313][TS: 9.6072][SA: 1.0279][Total: 20.5664]	9.9+0.0s
+[200/800]	[DS: 7.4194][TS: 7.0023][SA: 0.9949][Total: 15.4166]	9.9+0.0s
+[300/800]	[DS: 6.4340][TS: 5.9967][SA: 0.9698][Total: 13.4006]	9.8+0.0s
+[400/800]	[DS: 5.9173][TS: 5.4566][SA: 0.9384][Total: 12.3123]	9.9+0.0s
+[500/800]	[DS: 5.3764][TS: 4.9180][SA: 0.9168][Total: 11.2112]	9.7+0.0s
+[600/800]	[DS: 5.0866][TS: 4.5962][SA: 0.8916][Total: 10.5743]	9.7+0.0s
+[700/800]	[DS: 4.8210][TS: 4.3204][SA: 0.8731][Total: 10.0144]	9.6+0.0s
+
+Evaluation:
+Model settings
+Teachers: [SAN]
+Student: SAN
+
+Data Settings
+RGB range: 255
+Scale: 2
+Input Image Size: (48, 48, 3)
+Output Image Size: (96, 96, 3)
+
+Training Settings
+Epochs: 200
+Learning rate: 0.000100
+Learning rate decay: 150-300-450-600
+
+Distillation Settings
+Distillation type: 
+	teacher supervision
+	feature distillation
+		type: SA
+		position: [1,2,3]
+
+
+
+[Epoch 1]	Learning rate: 1.00e-04
+[0/800]	[DS: 22.0918][TS: 22.0808][SA: 1.1301][Total: 45.3027]	0.7+0.1s
+[100/800]	[DS: 9.2570][TS: 8.8989][SA: 1.0655][Total: 19.2214]	9.9+0.0s
+[200/800]	[DS: 7.4614][TS: 7.0950][SA: 1.0127][Total: 15.5691]	9.8+0.0s
+[300/800]	[DS: 6.4162][TS: 5.9927][SA: 0.9740][Total: 13.3829]	9.8+0.0s
+[400/800]	[DS: 5.7980][TS: 5.3518][SA: 0.9385][Total: 12.0882]	9.8+0.0s
+[500/800]	[DS: 5.3768][TS: 4.9139][SA: 0.9206][Total: 11.2114]	9.8+0.0s
+[600/800]	[DS: 5.1390][TS: 4.6641][SA: 0.8990][Total: 10.7021]	9.8+0.0s
+[700/800]	[DS: 4.8428][TS: 4.3563][SA: 0.8763][Total: 10.0755]	9.9+0.0s
+
+Evaluation:
+Model settings
+Teachers: [SAN]
+Student: SAN
+
+Data Settings
+RGB range: 255
+Scale: 2
+Input Image Size: (48, 48, 3)
+Output Image Size: (96, 96, 3)
+
+Training Settings
+Epochs: 200
+Learning rate: 0.000100
+Learning rate decay: 150-300-450-600
+
+Distillation Settings
+Distillation type: 
+	teacher supervision
+	feature distillation
+		type: SA
+		position: [1,2,3]
+
+
+
+[Epoch 1]	Learning rate: 1.00e-04
+[0/800]	[DS: 36.7007][TS: 36.6346][SA: 1.0500][Total: 74.3852]	0.7+0.1s
+[100/800]	[DS: 8.8160][TS: 8.4974][SA: 1.0402][Total: 18.3536]	9.8+0.0s
+[200/800]	[DS: 7.0472][TS: 6.5901][SA: 0.9975][Total: 14.6348]	9.7+0.0s
+[300/800]	[DS: 6.1389][TS: 5.6734][SA: 0.9550][Total: 12.7674]	9.7+0.0s
+[400/800]	[DS: 5.6342][TS: 5.1265][SA: 0.9199][Total: 11.6806]	9.7+0.0s
+[500/800]	[DS: 5.2055][TS: 4.7117][SA: 0.8958][Total: 10.8130]	9.7+0.0s
+[600/800]	[DS: 5.0468][TS: 4.5433][SA: 0.8826][Total: 10.4727]	9.7+0.0s
+[700/800]	[DS: 4.7291][TS: 4.2161][SA: 0.8580][Total: 9.8032]	9.7+0.0s
+
+Evaluation:
+1
+Model settings
+Teachers: [SAN]
+Student: SAN
+
+Data Settings
+RGB range: 255
+Scale: 2
+Input Image Size: (48, 48, 3)
+Output Image Size: (96, 96, 3)
+
+Training Settings
+Epochs: 200
+Learning rate: 0.000100
+Learning rate decay: 150-300-450-600
+
+Distillation Settings
+Distillation type: 
+	teacher supervision
+	feature distillation
+		type: SA
+		position: [1,2,3]
+
+
+
+[Epoch 1]	Learning rate: 1.00e-04
+[0/800]	[DS: 30.5104][TS: 30.4950][SA: 0.8985][Total: 61.9039]	0.7+0.1s
+[100/800]	[DS: 10.0356][TS: 9.7040][SA: 1.0327][Total: 20.7723]	9.7+0.0s
+[200/800]	[DS: 7.5063][TS: 7.0738][SA: 0.9938][Total: 15.5738]	10.0+0.0s
+[300/800]	[DS: 6.4964][TS: 6.0252][SA: 0.9677][Total: 13.4892]	10.1+0.0s
+[400/800]	[DS: 5.7115][TS: 5.2242][SA: 0.9483][Total: 11.8840]	10.0+0.0s
+[500/800]	[DS: 5.3146][TS: 4.8270][SA: 0.9284][Total: 11.0699]	10.0+0.0s
+[600/800]	[DS: 5.0648][TS: 4.5630][SA: 0.9005][Total: 10.5283]	9.9+0.0s
+[700/800]	[DS: 4.8102][TS: 4.2845][SA: 0.8737][Total: 9.9684]	9.7+0.0s
+
+Evaluation:
+1
